@@ -1,0 +1,5 @@
+global-components:
+  version: 1.x
+  css:
+    theme:
+      css/events.css: {}

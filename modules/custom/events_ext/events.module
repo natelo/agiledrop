@@ -1,0 +1,14 @@
+<?php
+/**
+ * Implements hook_theme().
+ */
+function events_theme() {
+  return array(
+    'events_block' => array(
+      'variables' => array(
+        'items' => null
+      ),
+      'template' => 'block--EventsBlock',
+    ),
+  );
+}

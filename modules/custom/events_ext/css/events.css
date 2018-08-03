@@ -1,0 +1,10 @@
+/*
+  Events SideBlock styling
+ */
+ul.events_sideblock li {
+  margin-bottom: 5px;
+}
+
+ul.events_sideblock li span {
+  clear: both;
+}
