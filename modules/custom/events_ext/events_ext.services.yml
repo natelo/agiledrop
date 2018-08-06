@@ -1,0 +1,3 @@
+services:
+  events_ext.events_info:
+    class: Drupal\events_ext\Controller\EventsInfoController

@@ -1,0 +1,9 @@
+event_ext.content:
+  path: 'events_ext'
+  defaults:
+    _controller: '\Drupal\events_ext\Controller\EventsInfo::generateEventInfo'
+    _title: 'Events Info Block'
+  requirements:
+    _permission: 'access content'
+  options:
+    no_cache: 'true'
